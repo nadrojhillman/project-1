@@ -9,6 +9,8 @@ input = gets.to_i
 $i = input
 
 puts "Here is your summation, Logandi"
-
-puts ($i**2+$i)/2
-
+if ($i>0)
+    puts ($i**2+$i)/2
+else 
+    puts ($i**2+$i)/-2 
+end
